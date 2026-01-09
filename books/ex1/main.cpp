@@ -265,8 +265,6 @@ int main()
     // addstr(box);
     // refresh();
 
-
-
     getch();
     endwin();
     return 0;
