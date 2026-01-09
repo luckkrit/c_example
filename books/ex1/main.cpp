@@ -224,9 +224,20 @@ int main()
     // }
     // refresh();
 
-    attrset(A_ALTCHARSET);
-    addstr("Hello there!");
-    refresh();
+    // attrset(A_ALTCHARSET);
+    // addstr("Hello there!");
+    // refresh();
+
+    // chtype string[] = {
+    //     'H' | A_BOLD, '0', '1' | A_REVERSE,
+    //     'l' | A_REVERSE, 'o', '!' | A_UNDERLINE
+    // };
+    // int x = 0;
+    // while(string[x]){
+    //     addch(string[x]);
+    //     x++;
+    // }
+    // refresh();
 
     getch();
     endwin();
